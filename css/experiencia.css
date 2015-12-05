@@ -1,0 +1,503 @@
+/* ==========================================================================
+    JOAE Designing your ideas (generated via initializr.com)
+   ========================================================================== 
+*/
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+#general-content{
+	display:none;
+	}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.blue {
+	color: #06F;
+}
+
+.green {
+	color: #0A0;
+}
+
+.menu-wrapper ul.menu, ul.tabs {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.spacing {
+	margin-bottom: 40px;
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+    Forms
+   ========================================================================== */
+form input[type="text"],
+form input[type="email"],
+form input[type="number"],
+form input[type="password"] {
+    background: #fff;
+    border: 1px solid #fff;
+    padding: 7px 10px;
+    width: 100%;
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form input[type="number"]:focus,
+form input[type="password"]:focus {
+    outline: none !important;
+}
+
+form .button {
+    background: #fff;
+    border: 1px solid #fff;
+    padding: 7px 20px;
+    text-transform: uppercase;
+}
+
+form .button:focus, form .button:active {
+    outline: none !important;
+}
+
+form .button.yellow {
+    background: #e7af2a;
+    color: #fff;
+    border: 1px solid #c89316;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important;
+    /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+  a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+  /*
+   * Don't show links for images, or javascript/internal links
+  
+  .ir a:after,
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+    content: "";
+  } */
+
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+}
+
+thead {
+    display: table-header-group;
+    /* h5bp.com/t */;
+}
+
+tr,
+  img {
+    page-break-inside: avoid;
+}
+
+img {
+    max-width: 100% !important;
+}
+
+@page {
+    margin: 0.5cm;
+}
+
+p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+}
+
+h2,
+  h3 {
+    page-break-after: avoid;
+}
+}
+/* ==========================================================================
+    Structure & Defaults
+   ========================================================================== */
+html, body {
+    font-size: 100%;
+    width: 100%;
+    height: 100%;
+    /*-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    vertical-align: baseline;*/
+}
+
+body {
+    font: 13px/19px "Open Sans", Arial, sans-serif;
+    color: #000000;
+	background: #571111 url(../images/experiencia.png) no-repeat center fixed;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	margin:0 auto;
+	width:100%;
+	min-height:100%;
+	 -webkit-transition:all 0.7s linear;  /* Chrome y Safari */
+  -o-transition:all 0.7s linear;  /* Opera */
+  -moz-transition:all 0.7s linear;  /* Mozilla Firefox */
+  -ms-transition:all 0.7s linear;   /* Internet Explorer */
+  transition:all 0.7s linear;  /* W3C */
+ }
+
+a {
+    color: #d8aa46;
+    text-decoration: none !important;
+    -webkit-transition: all 200ms ease-in;
+    -moz-transition: all 200ms ease-in;
+    -ms-transition: all 200ms ease-in;
+    -o-transition: all 200ms ease-in;
+    transition: all 200ms ease-in;
+}
+
+a:hover {
+    color: #d8aa46;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Open Sans", Arial, sans-serif;
+	/*font-family: "Open Sans", Arial, sans-serif;*/
+    color: #600d04;
+    margin: 0 0 20px 0;
+    /*text-transform: uppercase;*/
+}
+p {
+	 font-family: "Open Sans", Arial, sans-serif;
+    color:#000000;
+	font-size:14px;
+}
+
+h1 {
+    font-size: 2.2em;
+}
+
+h2 {
+    font-size: 2.2em;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+h4 {
+    font-size: 1.4em;
+}
+
+h5 {
+    font-size: 1em;
+}
+
+h6 {
+    font-size: .8em;
+}
+
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.bg-overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    /*background-color: rgba(0, 0, 0, 0.4);*/
+}
+
+.container-fluid {
+    padding: 60px 80px;
+}
+
+.content {
+    display: none;
+}
+
+/* ==========================================================================
+    Header Site Styling
+   ========================================================================== */
+.sidebar-menu {
+    position: relative;
+    z-index: 9;
+    padding-right: 80px;
+}
+
+.logo-wrapper {
+    background-color: #e5e8ed;
+    text-align: center;
+    padding: 20px;
+}
+
+.logo-wrapper {
+    background-color: #62512b;
+    text-align: center;
+    padding: 20px;
+}
+
+.logo-wrapper h1 span {
+    margin-top: 10px;
+    display: block;
+    font-size: 12px;
+    font-weight: 400;
+    color: #f39200;
+}
+
+.menu-wrapper {
+    display: block;
+}
+
+.menu-wrapper ul.menu {
+    display: none;
+    background-color: #cfac61;
+    text-align: center;
+}
+
+.menu-wrapper ul.menu li {
+    border-top: 1px solid #600d04;
+}
+
+.menu-wrapper ul.menu li a {
+    /*text-transform: uppercase;*/
+    display: block;
+    padding: 18px 30px;
+    color: #600d04;
+    font-size: 18px;
+}
+
+.menu-wrapper a.toggle-menu {
+    display: block;
+    background-color: #f39200;
+    color: #600D04;
+    text-align: center;
+}
+
+.menu-wrapper a.toggle-menu i {
+    padding: 10px 20px;
+    font-size: 24px;
+}
+
+
+
+/* ==========================================================================
+    About Styling
+   ========================================================================== */
+.derecha {
+	display:none;
+	visibility:hidden;
+	}
+.toggle-content1 {
+    display:none;
+	visibility:hidden;
+}
+.toggle-content3 {
+    margin-top: 0px;
+	margin-bottom: 10px;
+    display: block;
+    padding:10px;
+    overflow: hidden;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    background-clip: padding-box;
+	background-color: rgba(181, 213, 149, 0.8);
+  /* stops bg color from leaking outside the border: */
+}
+.toggle-content {
+    margin-top: 32px;
+    display: block;
+    padding: 0px;
+    overflow: hidden;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    background-clip: padding-box;
+	background-color: rgba(181, 213, 149, 0.8);
+	/*opacity:0.9;
+  /* stops bg color from leaking outside the border: */
+}
+
+.footer {
+    overflow: hidden;
+    position: fixed;
+    bottom: 0px;
+    color: #01041d;
+}
+
+.footer a {
+    color: #01041d;;
+}
+
+
+/*------------------------------------------------------
+	RESPONSIVE STYLES 
+--------------------------------------------------------*/
+@media (max-width: 1024px) {
+    .sidebar-menu {
+        padding-right: 40px;
+    }
+
+    #prevslide {
+        right: 0;
+    }
+
+    #nextslide {
+        right: 0;
+    }
+
+    .footer {
+        position: relative;
+    }
+}
+
+@media (max-width: 991px) {
+    .sidebar-menu {
+        margin-bottom: 30px;
+        padding-right: 40px;
+    }
+
+    .icon-item {
+        position: relative;
+        z-index: 99;
+    }
+}
+
+@media (max-width: 767px) {
+    .container-fluid {
+        padding: 20px;
+    }
+	.sidebar-menu {
+		margin-left:50px;
+}
+
+	
+}
+@media (max-width: 560px) {
+   body {
+		background:#571111;
+	}
+.sb-description {
+	font-size:12px;
+}
+.sb-description h3 {
+	font-size:12px;
+}
+.nav-arrows a {
+	margin-top: -10px;
+}
+	
+}
+@media (max-width: 400px) {
+ body {
+		background:#571111;
+	}   
+.sb-description {
+	font-size:10px;
+	height:100%;
+}
+.sb-description h3 {
+	font-size:10px;
+}
+.nav-arrows a {
+	margin-top: -15px;
+}	
+}
+
